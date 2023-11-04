@@ -1,14 +1,25 @@
 # Designing Azure Infrastructure Solutions
 
-Application Insights and working with Application Insights
-Microsoft Defender for Cloud
-Azure Policies
-Azure Blueprints
-Azure AD Application Proxy
-Azure AD Privileged Identity Management - Here we see the benefit of Azure AD Privileged Identity Management when it comes to Azure AD roles. And how we can perform Access Reviews
-More on containers - We will now look at an example on how to deploy a web application onto Azure Kubernetes with the use of containers. This helps students get a better idea on how to deploy containerized-based applications.
-Better examples on the use of Active-geo replication and Auto-Failover groups when it comes to redundancy for Azure SQL databases
-A overview and simple working on Azure Synapse Analytics and Azure Databricks.
-How to transfer data using Azure Data Factory.
-A look at services such as Azure Event Grid and Azure Event Hubs. This helps the students understand how these services can better fit into the entire application architecture picture.
-A quick look at the Azure DevOps set of tools.
+- Application Insights and working with Application Insights
+- Microsoft Defender for Cloud
+- Azure Policies
+- Azure Blueprints
+- Azure AD Application Proxy
+- Azure AD Privileged Identity Management - Azure AD Privileged Identity Management - Access Reviews
+- Containers - Deploy a web application onto Azure Kubernetes with the use of containers - How to deploy containerized-based applications.
+- Active-geo replication and Auto-Failover groups when it comes to redundancy for Azure SQL databases
+- Overview and simple working on Azure Synapse Analytics and Azure Databricks.
+- How to transfer data using Azure Data Factory.
+- Azure Event Grid and Azure Event Hubs.
+- A quick look at the Azure DevOps set of tools.
+
+
+
+## Publish Web App
+
+### Create Web App
+<img src="/pictures/webapp.png" title="create web app"  width="900">
+
+### Publish Web App
+<img src="/pictures/webapp1.png" title="publish web app"  width="900">
+
