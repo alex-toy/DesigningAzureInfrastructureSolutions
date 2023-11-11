@@ -11,14 +11,14 @@
 - Overview and simple working on Azure Synapse Analytics and Azure Databricks.
 - How to transfer data using Azure Data Factory.
 - Azure Event Grid and Azure Event Hubs.
-- A quick look at the Azure DevOps set of tools.
+- Azure DevOps set of tools.
 
 
 
-## Publish Web App
+## Design Monitoring
 
-### Create Web App
-<img src="/pictures/webapp.png" title="create web app"  width="900">
+### Create VM
+<img src="/pictures/vm.png" title="create vm"  width="900">
 
 ### Publish Web App
 <img src="/pictures/webapp1.png" title="publish web app"  width="900">
