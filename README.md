@@ -18,8 +18,11 @@
 ## Design Monitoring
 
 ### Create VM
-<img src="/pictures/vm.png" title="create vm"  width="900">
+<img src="/pictures/monitoring.png" title="create vm"  width="900">
 
-### Publish Web App
-<img src="/pictures/webapp1.png" title="publish web app"  width="900">
+### Create SQL Database
+<img src="/pictures/monitoring1.png" title="create sql database"  width="900">
+
+### Create Storage Account
+<img src="/pictures/monitoring2.png" title="create storage account"  width="900">
 
