@@ -35,3 +35,8 @@
 
 - create storage account and upload local images
 <img src="/pictures/monitoring4.png" title="storage account"  width="900">
+
+- populate the Azure SQL Database
+<img src="/pictures/monitoring5.png" title="storage account"  width="900">
+
+- run the app locally again. This time, images and other data are retrieved from the cloud
