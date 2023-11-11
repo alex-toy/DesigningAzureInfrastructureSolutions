@@ -31,7 +31,7 @@
 - Storage Account
 <img src="/pictures/monitoring2.png" title="create storage account"  width="900">
 
-### Run App on Azure
+### Run App Locally with Resources on Azure
 
 - create storage account and upload local images
 <img src="/pictures/monitoring4.png" title="storage account"  width="900">
@@ -40,3 +40,42 @@
 <img src="/pictures/monitoring5.png" title="storage account"  width="900">
 
 - run the app locally again. This time, images and other data are retrieved from the cloud
+
+### Run App Locally with Resources on Azure
+
+- on the *Server Manager* / *Dashboard*, clic *Add Roles and Features*
+<img src="/pictures/deploy_vm.png" title="deploy app on VM"  width="900">
+
+- add *Web Server IIS*
+<img src="/pictures/deploy_vm1.png" title="deploy app on VM"  width="900">
+
+- add *Management Service*
+<img src="/pictures/deploy_vm2.png" title="deploy app on VM"  width="900">
+
+- turn off *Enhanced Security Configuration*
+<img src="/pictures/deploy_vm3.png" title="deploy app on VM"  width="900">
+
+- download and install *.NET 6.0 Hosting Bundle*
+<img src="/pictures/deploy_vm4.png" title="deploy app on VM"  width="900">
+
+- download and install *Web Deploy 3.6*
+<img src="/pictures/deploy_vm5.png" title="deploy app on VM"  width="900">
+
+- configure IIS (enable remote connections)
+<img src="/pictures/deploy_vm6.png" title="deploy app on VM"  width="900">
+Don't forget to start the service
+<img src="/pictures/deploy_vm7.png" title="deploy app on VM"  width="900">
+
+- configure IIS Manager Permissions
+<img src="/pictures/deploy_vm71.png" title="deploy app on VM"  width="900">
+<img src="/pictures/deploy_vm72.png" title="deploy app on VM"  width="900">
+
+- add inbound rule
+<img src="/pictures/deploy_vm8.png" title="deploy app on VM"  width="900">
+
+- add DNS
+<img src="/pictures/deploy_vm9.png" title="deploy app on VM"  width="900">
+
+- publish app to the VM
+<img src="/pictures/deploy_vm91.png" title="deploy app on VM"  width="900">
+<img src="/pictures/deploy_vm92.png" title="deploy app on VM"  width="900">
