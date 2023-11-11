@@ -17,14 +17,21 @@
 
 ## Design Monitoring
 
-### Create VM
-<img src="/pictures/monitoring.png" title="create vm"  width="900">
-
-### Create SQL Database
-<img src="/pictures/monitoring1.png" title="create sql database"  width="900">
-
-### Create Storage Account
-<img src="/pictures/monitoring2.png" title="create storage account"  width="900">
-
 ### Run App Locally
 <img src="/pictures/monitoring3.png" title="run app locally"  width="900">
+
+### Create Resources
+
+- virtual machine
+<img src="/pictures/monitoring.png" title="create vm"  width="900">
+
+- SQL Database
+<img src="/pictures/monitoring1.png" title="create sql database"  width="900">
+
+- Storage Account
+<img src="/pictures/monitoring2.png" title="create storage account"  width="900">
+
+### Run App on Azure
+
+- create storage account and upload local images
+<img src="/pictures/monitoring4.png" title="storage account"  width="900">
