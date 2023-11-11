@@ -41,8 +41,7 @@ namespace sqlapp.Services
 
         private static int GetCourseId(string[] _values)
         {
-            int temp = int.Parse(_values[0]);
-            return temp;
+            return int.Parse(_values[0]);
         }
     }
 }

@@ -26,3 +26,5 @@
 ### Create Storage Account
 <img src="/pictures/monitoring2.png" title="create storage account"  width="900">
 
+### Run App Locally
+<img src="/pictures/monitoring3.png" title="run app locally"  width="900">
