@@ -79,3 +79,21 @@ Don't forget to start the service
 - publish app to the VM
 <img src="/pictures/deploy_vm91.png" title="deploy app on VM"  width="900">
 <img src="/pictures/deploy_vm92.png" title="deploy app on VM"  width="900">
+
+
+
+## Design Data Storage
+
+### Connect to Storage Account with Access Keys
+<img src="/pictures/sa.png" title="storage account"  width="900">
+<img src="/pictures/sa1.png" title="storage account"  width="900">
+<img src="/pictures/sa2.png" title="storage account"  width="900">
+
+### Connect to Storage Account with Shared Access Signature
+<img src="/pictures/sas.png" title="shared access signature"  width="900">
+<img src="/pictures/sas1.png" title="shared access signature"  width="900">
+<img src="/pictures/sas2.png" title="shared access signature"  width="900">
+
+- see that with our generated SAS, we are not able to upload or delete a file, and only the blobs are visible
+<img src="/pictures/sas3.png" title="shared access signature"  width="900">
+<img src="/pictures/sas4.png" title="shared access signature"  width="900">
