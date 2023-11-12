@@ -84,12 +84,14 @@ Don't forget to start the service
 
 ## Design Data Storage
 
-### Connect to Storage Account with Access Keys
+### Connect to Storage Account using Access Keys
 <img src="/pictures/sa.png" title="storage account"  width="900">
 <img src="/pictures/sa1.png" title="storage account"  width="900">
 <img src="/pictures/sa2.png" title="storage account"  width="900">
 
-### Connect to Storage Account with Shared Access Signature
+### Connect to Storage Account using Shared Access Signature
+
+- generate SAS with only read access for only the blobs
 <img src="/pictures/sas.png" title="shared access signature"  width="900">
 <img src="/pictures/sas1.png" title="shared access signature"  width="900">
 <img src="/pictures/sas2.png" title="shared access signature"  width="900">
@@ -97,3 +99,17 @@ Don't forget to start the service
 - see that with our generated SAS, we are not able to upload or delete a file, and only the blobs are visible
 <img src="/pictures/sas3.png" title="shared access signature"  width="900">
 <img src="/pictures/sas4.png" title="shared access signature"  width="900">
+
+### Connect to Storage Account using Azure Active Directory
+
+- add Role Assignment
+<img src="/pictures/ad.png" title="active directory"  width="900">
+<img src="/pictures/ad1.png" title="active directory"  width="900">
+<img src="/pictures/ad2.png" title="active directory"  width="900">
+<img src="/pictures/ad3.png" title="active directory"  width="900">
+
+- now you can signin with azure
+<img src="/pictures/ad4.png" title="active directory"  width="900">
+
+- now you are able to access resources from your subscription
+<img src="/pictures/ad5.png" title="active directory"  width="900">
